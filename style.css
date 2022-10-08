@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.parent{
+    background-color: hsl(210, 46%, 95%);
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+}
+.login{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+    padding: 10% 10%;
+}
+button{
+    padding: 3%;
+    width: 100%;
+}
+button a{
+    text-decoration: none;
+    color: hsl(219, 29%, 14%);;
+}
+.or{
+    text-align: center;
+    margin: 5%;
+}
+label{
+    font-size: 18px;
+}
+input{
+    padding: 3%;
+    width: 100%;
+    margin: 3% 0;
+    border-radius: 5px;
+    border: 1px solid hsl(219, 29%, 14%);;
+}
+.checkbtn{
+    text-align: left;
+    width: 4%;
+}
+.rem{
+    display: inline-block;
+}
+.forgotPass{
+    display: inline-block;
+    margin-left: 40%;
+}
+.forgotPass a{
+    color: rgb(88, 88, 248);
+    text-decoration: none;
+}
+.loginbtn{
+    background-color: hsl(219, 29%, 14%);
+    border: 1px solid hsl(219, 29%, 14%);
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+}
+.signup{
+    text-align: right;
+    margin: 3% 10% 0 0;
+}
+span a{
+    color: rgb(88, 88, 248);
+    text-decoration: none;
+}
+
+.feat{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+    padding: 5% 5%;
+    text-align: left;
+}
+.feat h3{
+    margin: 15% 8% 2% 8%;
+    font-size: 18px;
+}
+.feat p{
+    padding: 0 8%;
+}
+
+@media only screen and (max-width:480px){
+    .parent{
+        display: block;
+    }
+    
+    .rem{
+        display: inline-block;
+    }
+    .forgotPass{
+        margin-left: 18%;
+    }
+    .loginbtn{
+        margin-top: 10% ;
+    }
+    input{
+        margin: 5% 0;
+    }
+    .signup{
+        text-align: right;
+        margin: 10% 0 0 0;
+    }
+    .feat{
+        margin-bottom: 10%;
+    }
+}
